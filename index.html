@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<title>BLAC</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./index.css" />
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("image9.png");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <b><a href="#home" class="w3-bar-item w3-button w3-wide">BLAC</a></b>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> CUSTOMERS</a>
+     
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">CUSTOMERS</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+ 
+   
+  </div> 
+
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT US</h3>
+  <p class="w3-center w3-large">What we DO</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-third">
+      <img src="image2.jpg" alt="Dan" style="width:100%">
+      <p class="w3-large">Consultations and Diagnostics</p>
+      <p>Diagnose the overall D&I culture
+Exit interviews / analysis of exit surveys to address the attrition of minorities, especially senior technical leaders
+.</p>
+    </div>
+    <div class="w3-third">
+      <img src="image8.jpg" alt="Dan" style="width:100%">
+      <p class="w3-large">Leadership coaching, mentoring and development.</p>
+      <p>Assist and coach leadership to have the “hard conversations” around race and gender
+Programs to foster and promote black people with leadership potential or in a highly technical areas where there’s a skills shortage (STEM)
+</p>
+    </div>
+    <div class="w3-third">
+      <img src="image7.jpg" alt="Dan" style="width:100%">
+      <p class="w3-large">Talent Sourcing</p>
+      <p>Connect you to alternative talent sources that we can endorse you to  as a committed D&I culture
+Connect you with Charter Schools and other Socially Responsible avenues, where you can support/sponsor Minority STEM enrichment in your community
+.</p>
+    </div>
+
+  </div>
+</div>
+
+<!-- Why Hire us - "We know the task" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h2>Mission Focus.</h2>
+      <h3>To advance racial equity and inclusion within organizational and institutional structures .</h3>
+      <p><a href="#work" class="w3-button w3-black">Our Customers<i class="fa fa-th"> </i> </a></p>
+      <h2>Why you should hire BLAC</h2> 
+       <h2>The jobs that BLAC will help you accomplish
+      </h2>
+      <h3>
+        <ul>
+          <li>To identify Issues of retaining black people with leadership potential</li>
+           <li> To identify issues with fostering and promoting black people with leadership potential or in a highly technical areas where there’s a skills shortage (STEM)</li>
+           <li>Recruiting black people for positions of leadership that reflect the general population</li>
+            <li>Training to evaluate leadership potential early to cultivate future leaders of color</li>
+            <li>Training to change company culture to expect higher diversity at senior positions</li>
+            <li>Feeding the pipeline of STEM minorities in your communities</li>
+
+        </ul>
+        
+      </h3>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="image3.jpg" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">OUR TEAM</h3>
+  <p class="w3-center w3-large">These are people that do the organisation</p>
+  <div class="w3-row-padding " style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="image5.png" alt="Washington" style="width:100%">
+        <div class="w3-container">
+          <h3>Aaron L. Washington, II Ph.D.</h3>
+          <!--
+          <p class="w3-opacity">.............</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          --><p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="image8.png" alt="Peterson" style="width:100%">
+        <div class="w3-container">
+          <h3>Durodjio Peterson</h3>
+          <!--<p class="w3-opacity">............</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          --><p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="image20.png" alt="Robinson" style="width:100%">
+        <div class="w3-container">
+          <h3>Lisa Robinson</h3>
+          <!--<p class="w3-opacity">...........</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          --><p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="image3.png" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>Taiwo Togun, Ph.D.</h3>
+          <!--<p class="w3-opacity">Data Scientist/Educator</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          --><p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" 
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">14+</span>
+    <br>Partners
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">55+</span>
+    <br>Projects Done
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">89+</span>
+    <br>Happy Clients
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">150+</span>
+    <br>Meetings
+  </div>
+</div>
+-->
+
+
+
+
+
+
+<!-- Our Customers-->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">OUR CUSTOMERS</h3>
+  <p class="w3-center w3-large">These are the industries we service</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <p class="w3-large">Coporate</p>
+        <i class="fa fa-diamond w3-margin-bottom w3-jumbo w3-center"></i>
+
+         <p>Startups, Midsize, Targeted Media campaigns, External Recruiting Materials(Print/ Web Based)</p>
+
+    </div>
+    <div class="w3-quarter">
+      <p class="w3-large">Academia</p>
+        <i class="fa fa-book w3-margin-bottom w3-jumbo w3-center"></i>
+
+       <p>Universities, K-12(beneficiaries), Charter schools</p>
+    </div>
+    <div class="w3-quarter">
+      <p class="w3-large">Government</p>
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+
+        <p>State Government, Federal Government, City Municipal</p>
+
+    </div>
+    <div class="w3-quarter">
+      <p class="w3-large">Miltary</p>
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo w3-center"></i>
+
+        <p>DOD, Military Installations, Veteran Services</p>
+
+    </div>
+
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:20px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    <br>
+ 
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
